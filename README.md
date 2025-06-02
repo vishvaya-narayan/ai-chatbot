@@ -23,3 +23,8 @@ A basic AI chatbot built with **React** and integrated with **Google's Gemini AP
    ```bash
    git clone https://github.com/your-username/ai-chatbot.git
    cd AI-CHATBOT
+2. **Setting api**
+```bash
+    Go to src/App.jsx and add your api key
+
+![image](https://github.com/user-attachments/assets/bbe5a2d5-8c83-4be7-b152-263dff185a1e)

@@ -1,7 +1,3 @@
-
-![image](https://github.com/user-attachments/assets/28731ccd-354a-405e-ab22-aebb3b5d3bbc)
-
-
 # 🤖 AI Chatbot using Gemini API (React)
 
 A basic AI chatbot built with **React** and integrated with **Google's Gemini API**. This chatbot allows users to interact with an intelligent assistant through a clean user interface.
@@ -30,3 +26,6 @@ A basic AI chatbot built with **React** and integrated with **Google's Gemini AP
 2. **Setting api**
 ```bash
     Go to src/App.jsx and add your api key
+```
+![image](https://github.com/user-attachments/assets/7cf3fa57-409b-419b-a760-d6f45e9d2b83)
+

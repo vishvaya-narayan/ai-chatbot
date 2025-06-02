@@ -1,44 +1,3 @@
-// import { useState } from 'react'
-// import './App.css'
-// import axios from 'axios'
-
-// function App() {
-//   const [question , setQuestion] = useState("")
-//   const [answer , setAnswer] = useState("")
-
-//   async function generateAnswer() {
-//     setAnswer("Loading...")
-//   const response = await axios({
-//     url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?      key=AIzaSyBuoYNnld3wN_7dKgcraq3I0z9DkEvZ4ao",
-//     method : "post",
-//     data : {
-//       contents:[
-//         {parts:[{text:question}]}
-//       ],
-//     }}
-//   )
-//     setAnswer(response["data"]["candidates"][0]["content"]["parts"][0]["text"])
-// }
-
-//   return (
-//     <>
-//       <h1>AI Chatbot</h1>
-//       <textarea 
-//         cols="30" 
-//         rows="10" 
-//         value={question}
-//         onChange={(e) =>setQuestion(e.target.value)}
-//       ></textarea>
-//       <br />
-//       <button onClick={generateAnswer}>Generate answer</button>
-
-//       <pre>{answer}</pre>
-//     </>
-//   )
-// }
-
-// export default App
-
 import React, { useState } from 'react';
 import { FaPaperPlane } from 'react-icons/fa';
 import axios from 'axios';
@@ -60,7 +19,7 @@ function App() {
       try {
         setLoading(true);
         const response = await axios.post(
-          'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBuoYNnld3wN_7dKgcraq3I0z9DkEvZ4ao',
+          'your api key',
           {
             "contents": [
               {

@@ -19,7 +19,7 @@ function App() {
       try {
         setLoading(true);
         const response = await axios.post(
-          'your api key',
+          'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBuoYNnld3wN_7dKgcraq3I0z9DkEvZ4ao',
           {
             "contents": [
               {
